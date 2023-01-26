@@ -15,6 +15,13 @@ bundle exec rails server # Run server. please make sure it is bound on 127.0.0.1
 - Endpoint accept parameters to control the above optimization behavior
 - Receive an image URL, download an image from the URL, and optimize it in the same manner as the above POST endpoint
 
+## Technologies used
+
+- Ruby on Rails (Ruby: 3.0.3, Rails: 7.0.4)
+- [mini_magick](https://github.com/minimagick/minimagick) For Image Optimization
+
+## Specification
+
 For more details, see the following sections.
 
 ### 1. Endpoint resize a passed image into specific size only when it is large
