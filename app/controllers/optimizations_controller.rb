@@ -7,7 +7,7 @@ class OptimizationsController < ApplicationController
   ##
   # If there's an error, return it, otherwise return the image
   # End_point:
-  #   GET: /optimizations?width=200&height=200&threshold=100000
+  #   POST: /optimizations?width=200&height=200&threshold=100000
   # Params:
   #   width: Specify maximum image width when resizing an image
   #   height: Specify maximum image height when resizing an image
